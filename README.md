@@ -2,7 +2,8 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-Un site de streaming où vous pouvez regarder vos animes préférés gratuitement, et le tout sans publicité!
+Un site de streaming où vous pouvez regarder vos animes préférés gratuitement, et le tout sans publicité!    
+Si vous souhaitez rejoignez notre discord [[clique ici](https://example.org)] et passe un bon moment avec notre communauté !
 
 ## Fabriqué avec
 
