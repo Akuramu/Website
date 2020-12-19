@@ -1,6 +1,6 @@
 # GojAni.me
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 Un site de streaming où vous pouvez regarder vos animes préférés gratuitement, et le tout sans publicité!
 
@@ -30,5 +30,5 @@ Lisez la liste des [contributeurs](https://github.com/your/project/contributors)
 
 ## License   
    
-Ce projet est sous licence ``APACHE-2.0`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
+Ce projet est sous licence ``APACHE-2.0`` - voir le fichier [LICENSE](LICENSE) pour plus d'informations
 
