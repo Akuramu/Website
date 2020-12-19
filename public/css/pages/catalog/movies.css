@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "AndaleMono", monospace;
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contLogo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 50px 0;
+    font-family: "AndaleMono", monospace;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 40px;
+}
+
+.info {
+    padding: 60px;
+    color: black;
+    background-color: black;
+    border: 4px solid black;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.contItems {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    white-space: pre-wrap;
+    margin-right: 20px;
+}
+
+.itemDiscord,
+.itemGithub {
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+.itemDiscord {
+    margin-right: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+    border: 10px solid black;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    background: black;
+}
+
+.logoMenuImg {
+    width: 30px;
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 0px;
+}
+
+.itemDiscord:hover {
+    color: black;
+    background: white;
+    padding: 6px;
+    border: 4px solid black;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.itemGithub {
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+.itemGithub:active,
+.itemGithub:focus,
+.itemGithub:hover {
+    transform: scale(1.15);
+}
+
+h3 {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    color: black;
+}
+
+.body {
+    font-size: 20px;
+    font-family: "AndaleMono", monospace;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    height: 100vh;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info p {
+    color: white;
+    margin-left: 24%;
+}
+
+.info img {
+    width: 21%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: .3rem;
+    float: left;
+    border: 4px solid white;
+}
+
+.animeList {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 10px;
+    color: black;
+}
+
+.grille {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+}
+
+footer .text {
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    font-family: "AndaleMono", monospace;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.description {
+    max-width: 80%;
+}
+
+.space {
+    padding: 15px;
+    background: white;
+}
