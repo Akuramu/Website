@@ -11,10 +11,6 @@ Si vous souhaitez rejoignez notre discord [[clique ici](https://discord.gg/MP5Tu
 * [AOS.css](https://michalsnik.github.io/aos/) - Librarie CSS
 * [Visual Studio Code](https://code.visualstudio.com/) - Editeur de textes
 
-## Contribution
-
-Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
-
 ## Versions
 Listez les versions ici :  
 
@@ -27,7 +23,7 @@ Liste des versions : [Cliquer pour afficher](https://github.com/gojanime/website
 Listez le(s) auteur(s) du projet ici !  
 * **MaXoooZ** _alias_ [@max-xoo](https://github.com/max-xoo)     
     
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
+Lisez la liste des [contributeurs](https://github.com/GojAnime/Website/graphs/contributors) pour voir qui à aidé au projet !
 
 ## License   
    
