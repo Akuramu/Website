@@ -11,27 +11,31 @@ server.use(require("cookie-parser")());
 
 server.use(require("express-session")({
     secret: "09e60df3-e2d7-4c10-b103-380da8d5719b",
-    resave: false,
+    resave: true,
     saveUninitialized: true,
-    cookie: { 
-        secure: false
+    cookie: {
+        secure: true
     }
 }));
 
 server.use(bodyParser.json());
-server.use(bodyParser.urlencoded({ extended: true }));
+server.use(bodyParser.urlencoded({
+    extended: true
+}));
 
-let privileges = JSON.parse(fs.readFileSync("privileges.json", {encoding: "utf-8"}));
+let privileges = JSON.parse(fs.readFileSync("privileges.json", {
+    encoding: "utf-8"
+}));
 
 server.use((request, response, next) => {
-    if(!request.session.privileges) request.session.privileges = [];
+    if (!request.session.privileges) request.session.privileges = [];
 
-    for(let [key, value] of Object.entries(privileges)){
-        if(request.session.privileges.includes(key)) continue;
+    for (let [key, value] of Object.entries(privileges)) {
+        if (request.session.privileges.includes(key)) continue;
 
-        for(let routeKey in value["routes-access"]){
-            if(request.url.startsWith("/" + value["routes-access"][routeKey])){
-                if(value["login-route"]){
+        for (let routeKey in value["routes-access"]) {
+            if (request.url.startsWith("/" + value["routes-access"][routeKey])) {
+                if (value["login-route"]) {
                     response.redirect("/" + value["login-route"]);
                 } else response.redirect("/");
                 return;
